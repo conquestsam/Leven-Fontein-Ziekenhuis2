@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life Fountain </title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+  <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <style>
+.social-buttons {
+    display: inline-block;
+    background: transparent;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 10px;
+    /* Helper class to divide the icons */
+  }
+  .social-buttons .social-margin {
+    margin-right: 15px;
+  }
+  .social-buttons a,
+  .social-buttons a:hover,
+  .social-buttons a:focus,
+  .social-buttons a:active {
+    text-decoration: none;
+  }
+  .social-buttons .social-icon {
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    -moz-border-radius: 138px;
+    -webkit-border-radius: 138px;
+    border-radius: 138px;
+    border: 5px solid;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 1px;
+    padding-top: 11px;
+    transition: all 0.5s;
+    /* Facebook Button Styling */
+    /* Twitter Button Styling */
+    /* Google+ Button Styling */
+    /* Linkedin Button Styling */
+    /* Pinterest Button Styling */
+    /* Behance Button Styling */
+    /* Github Button Styling */
+    /* Youtube Button Styling */
+    /* Soundcloud Button Styling */
+  }
+  .social-buttons .social-icon:hover {
+    transform: rotate(360deg) scale(1.3);
+  }
+  
+  .social-buttons .social-icon.twitter {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-color: #55acee;
+    background-color: #55acee;
+    color: #ffffff;
+  }
+  .social-buttons .social-icon.twitter:hover {
+    background-color: #ffffff;
+    color: #55acee;
+  }
+  
+  .social-buttons .social-icon.linkedin {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-left: 1px;
+    background-color: #0976b4;
+    color: #ffffff;
+    border-color: #0976b4;
+  }
+  .social-buttons .social-icon.linkedin:hover {
+    background-color: #ffffff;
+    color: #0976b4;
+  }
+  .social-buttons .social-icon.instagram {
+    font-size: 22px;
+    padding-top: 9px;
+    background-color: #cb2027;
+    color: #ffffff;
+    border-color: #cb2027;
+  }
+  .social-buttons .social-icon.instagram:hover {
+    background-color: #ffffff;
+    color: #cb2027;
+  }
+  
+  .social-buttons .social-icon.github {
+    font-size: 22px;
+    padding-top: 9px;
+    background-color: #4183c4;
+    color: #ffffff;
+    border-color: #4183c4;
+  }
+  .social-buttons .social-icon.github:hover {
+    background-color: #ffffff;
+    color: #4183c4;
+  }
+ 
+ </style>
+ </head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!--banner-->
+  <section id="banner" class="banner">
+    <div class="bg-color">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+              <div class="brand">
+              <img src="public/new5.png" class="img-responsive" style="width: 120px; margin-top: -16px;"></a>
+            </div>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#banner">Home</a></li>
+                <li class=""><a href="#service">Diensten</a></li>
+                <li class=""><a href="#about">Over</a></li>
+                <li class=""><a href="#">FAQ</a></li>
+                <li class=""><a href="#contact">Neem contact met ons op</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="banner-info">
+            <div class="banner-logo text-center">
+              <img src="public/img2.jpg" class="img-responsive" style="width: 140px;">
+            </div>
+            <div class="banner-text text-center">
+              <h1 class="white">Gezondheidszorg aan uw bureau!</h1>
+              <p>We maken ons meer zorgen over het welzijn en het algehele welbevinden van elk levend mens <br>respectieve ziekten en hun problemen. </p>
+              <div class="link">
+              <a href="https://symptoms.webmd.com/default.htm#/info">Systeemcontrole</a>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ banner-->
+  <!--service-->
+  <section id="service" class="section-padding">
+    <div class="container">
+      <div class="row">
+          <div class="col-mod-3">
+              <a href="Notification/index.html"> <h2> Meldingen </h2> </a> <br> <br>
+          </div>
+          <div class="col-md-6 main">
+              <form action="/sign_up" method="POST">
+                <h1>Afdeling Boekhouding </h1> <br>
+                  <h2> Formulier bankdeposito</h2> <br> <br>
+                  <input type="text" class="box" id="name" name="name" placeholder="Rekeningnummer: 23363238644591" required/>
+                  <br>
+                  <input type="text" class="box" id="email" name="email" placeholder="Naam rekeninghouder: Glenn Diercks" required/>
+                  <br>
+                  <input type="text" class="box" id="phno" name="phno" placeholder="Adres bank" required/>
+                  <br>
+                  <input type="text" class="box" id="gender" name="gender" placeholder="Adres ziekenhuis: Rue Dr Huet 79, 1070 Anderlecht, Belgium" required/>
+                  <br>
+                  <input type="text" class="box" id="password" name="password" placeholder="Naam ziekenhuis: Hôpital Joseph Bracops" required/>
+                  <br>
+                  <input type="submit" value="Ingediende details" id="submit" a href="public/signup_successful.html"/>
+
+                  </form>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+  <!--/ service-->
+  <!--cta-->
+  <section id="cta-1" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="schedule-tab">
+          <div class="col-md-4 col-sm-4 bor-left">
+            <div class="mt-boxy-color"></div>
+            <div class="medi-info">
+              <h3>Kankerzorg</h3>
+              <p>Kankerzorg: we bieden holistische, geïntegreerde zorg door de visie van experts in chirurgische oncologie, bestralingsoncologie en medische oncologie te consolideren. We geloven in de behandeling van kanker met een combinatie van chemotherapie, bestralingstherapie, chirurgie en gerichte therapie.
+                Wij zijn de eerste instelling in Noord-India die Novalis Tx heeft aangeschaft voor IMRT/IGRT, radiochirurgie, HIPEC en SRS/SRT. Daarnaast zijn we uitgerust met een geavanceerd Da Vinci XI robotsysteem voor de behandeling van complexe aandoeningen zoals prostaatkanker, baarmoederhalskanker, dikke darm/rectumkanker en harttumoren. De procedure is de volgende grens voor minimaal invasieve chirurgie.</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="medi-info">
+              <h3>Beenmergtransplantatie</h3>
+              <p>Een beenmergtransplantatie is een medische procedure die wordt uitgevoerd om ongezonde stamcellen uit het beenmerg te vervangen door gezonde stamcellen. Deze transplantatie wordt uitgevoerd om mensen te behandelen met aandoeningen zoals leukemie - bloedkanker, multipel myeloom, ernstige bloedziekten zoals aplastische anemie, thalassemie, sikkelcelanemie en bepaalde immuundeficiëntieziekten. Meestal worden de stamcellen verzameld via een perifere ader. De hele beenmergtransplantatieprocedure is vergelijkbaar met het doneren van bloed of bloedplaatjes. De stamcellen uit het beenmerg zijn verantwoordelijk voor de productie van bloedcellen zoals trombocyten, leukocyten en erytrocyten.</p>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-4 mt-boxy-3">
+            <div class="mt-boxy-color"></div>
+            <div class="time-info">
+              <h3>Openingstijden</h3>
+              <table style="margin: 8px 0px 0px;" border="1">
+                <tbody>
+                  <tr>
+                    <td>Maandag - Vrijdag</td>
+                    <td>8.00 - 17.00</td>
+                  </tr>
+                  <tr>
+                    <td>Zaterdag</td>
+                    <td>9.30 - 17.30</td>
+                  </tr>
+                  <tr>
+                    <td>Zondag</td>
+                    <td>9.30 - 15.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--cta-->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="section-title">
+            <h2 class="head-title lg-line">Onze missie</h2>
+            <hr class="botm-line">
+            <p class="sec-para">Bewustzijn bevorderen onder functionarissen die betrokken zijn bij gezondheidszorg en ziekenhuismanagement. Om de efficiëntie van gezondheidszorgsystemen te verbeteren. Om de ontwikkeling van ziekenhuisdiensten van hoge kwaliteit en gemeenschapsgezondheidszorg te bevorderen.</p>
+            <a href="" style="color: #0cb8b6; padding-top:10px;"></a>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8 col-xs-12">
+          <div style="visibility: visible;" class="col-sm-9 more-features-box">
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>Doelstelling 1:</h3>
+                <p>Het dienstenaanbod uitbreiden waar er mogelijkheden zijn om te voldoen aan de behoeften en de vraag van klanten, op een financieel haalbare basis.</p>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>Doelstelling 2:</h3>
+                <p>Zorg voor een veilige en therapeutische omgeving voor alle patiënten, medewerkers en bezoekers en verhoog de algemene tevredenheid van patiënten, medewerkers en bezoekende artsen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ about-->
+  <!--cta 2-->
+  <section id="cta-2" class="section-padding">
+    <div class="container">
+      <div class=" row">
+        <div class="col-md-2"></div>
+        <div class="text-right-md col-md-4 col-sm-4">
+          <h2 class="section-title white lg-line">« Een paar woorden<br> over de Executive Officer »</h2>
+        </div>
+        <div class="col-md-4 col-sm-5">
+          Ik ben een jonge, levendige algemeen chirurg met een specialisatie in ontologische gevallen en verloskunde gerelateerde klinische ingrepen. Ik heb meer dan 15 jaar ervaring in de behandeling van kanker en vrouwen.  
+
+          <p class="text-right text-primary"><i>— Sophie Schwartz <br>FACS, OB & GYNE Specialist </i></p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </section>
+  <!--cta-->
+  <!--contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="ser-title">Contact us</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h3>Contact Info</h3>
+          <div class="space"></div>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i> Rue Dr Huet 79, <br> 1070 Anderlecht, Belgium</p>
+          <div class="space"></div>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>sophieschwartz773@gmail.com </p>
+          <div class="space"></div>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 985-342-0039</p>
+        </div>
+        <div class="col-md-8 col-sm-8 marb20">
+          <div class="contact-info">
+            <h3 class="cnt-ttl">Heb je vragen, neem dan gerust contact op met Dr. Sophie Schwartz.</h3>
+            <div class="space"></div>
+            <div id="sendmessage">Je bericht is verzonden. Bedankt!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-action">
+                <button type="submit" class="btn btn-form">Verstuur bericht</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ contact-->
+  <!--footer-->
+  <footer id="footer">
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+            </div>
+            </div>
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              
+            </div>
+            <div class="info-sec">
+              
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 marb20">
+            <div class="ftr-tle">
+              <h4 class="white no-padding">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maak contact met ons </h4>
+            </div>
+            
+            <footer class="w3-container w3-padding-32 w3-indigo">
+              <div class="w3-row-padding">
+                <div class="w3-third">
+                  <div class="social-buttons">        
+                                          
+                            <!-- LinkedIn Button -->
+                            <a href="#" class="social-margin" target="blank">
+                              <div class="social-icon linkedin">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                              </div> 
+                            </a>
+                            <!-- instagram Button -->
+                            <a href="#" target="blank"  class="social-margin">
+                              <div class="social-icon instagram">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </div>
+                            </a>
+                          <!-- Github Button -->
+                            <a href="#"  target="blank"  class="social-margin">
+                              <div class="social-icon github">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                              </div>
+                            </a>
+                            
+                            
+                    </div>
+                </div>
+                </p>
+                </div>
+              </div>
+            </footer>
+            
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-line">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            © All Copyright Reserved.
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medilab
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
